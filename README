@@ -1,4 +1,4 @@
-This program traverse a specified directory in breath first order. berth first serch explores all the nodes at a given level before descending lower level in the tree. breath first is implemented with the queue. As the program encounters each directory node at particular level, it enqueues thr pathname for later examination. the directory is specified by user, and defaults to user's current working directory, the program itself is invoked using the linux command line interface, by using we can give the commands to execute this program.
+This program traverse a specified directory in breadth first order. breadth first search explores all the nodes at a given level before descending lower level in the tree. breath first is implemented with the queue. As the program encounters each directory node at particular level, it enqueues thr pathname for later examination. the directory is specified by user, and defaults to user's current working directory, the program itself is invoked using the linux command line interface, by using we can give the commands to execute this program.
 
 1.To compile we used the  make command
   $ make bt
@@ -18,5 +18,7 @@ $ ./bt -t print the information on file type
 $ ./bt -u print the UID associated with the file
 $ ./bt -l this option will be used to print information on thr file as if the options tpiugs are all specified.
 
+Version Control:
 I pushed all these files in to  github.
+/classes/OS/gorantla/gorantla.1/log
 
