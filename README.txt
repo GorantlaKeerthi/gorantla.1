@@ -1,0 +1,22 @@
+This program traverse a specified directory in breath first order. berth first serch explores all the nodes at a given level before descending lower level in the tree. breath first is implemented with the queue. As the program encounters each directory node at particular level, it enqueues thr pathname for later examination. the directory is specified by user, and defaults to user's current working directory, the program itself is invoked using the linux command line interface, by using we can give the commands to execute this program.
+
+1.To compile we used the  make command
+  $ make bt
+After compilation we can find bt file which will be green color.
+2. Execute
+To execute the program 
+ $./bt dirname  
+ $  ./bt [-h] [-L -d -g -i -p -s -t -u | -l] [dirname]
+ $./bt -h dirname : h print a help message and exit
+./bt  -L dirname: L follow symbolic links, if any. default will be not follow symbolic links
+$ ./bt -d show the time of last modification
+$ ./bt -gPrint the GID associated with the file
+$ ./bt -i print the number of links to file inode table.
+$ ./bt -p print the permission bits as rwxrwxrwx
+$ ./bt -s print the size of file in bytes, if the size is larer than 1K, indicate the size in KB with suffix K; if the size is larger than 1M, indicate the size in MB with suffix M; if the size is larger than 1G , indicate the size in GB withsuffix G. 
+$ ./bt -t print the information on file type
+$ ./bt -u print the UID associated with the file
+$ ./bt -l this option will be used to print information on thr file as if the options tpiugs are all specified.
+
+I pushed all these files in to  github.
+
